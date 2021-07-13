@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="_img/Logo.png" />
+    <!-- Txtensões bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Link do css da home -->
+    <link href="_css/entrar_usuario.css" rel="stylesheet">
+    <!-- Titulo -->
+    <title> HiSenior</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Banner Rotativo JS -->
+    <link rel="stylesheet" href="_lib/nivo-slider/themes/default/default.css">
+    <link rel="stylesheet" href="_lib/nivo-slider/nivo-slider.css">
+    <!-- CSS JS -->
+    <link href="_css/js.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="_img/Logo.png" alt="" height="60" class="d-inline-block align-text-center rounded-circle">HiSenior
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto  mx-auto  ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quemsomos.html">Quem somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cad_voluntario.html">Quero ser voluntário</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cad_usuario.html">Quero ser usuário</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Entrar
+				          </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="login_usuario.html">Entrar como usúario</a></li>
+                                    <li><a class="dropdown-item" href="login_volunt.html">Entrar como voluntário</a></li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <a class="nav-link" href="https://www.facebook.com/HiSenior.oficial">
+                                        <img src="_img/Facebook.jpg" height="30">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="https://www.instagram.com/hisenior_oficial/">
+                                        <img src="_img/instagram.jpg" height="30">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="topo">
+                <hr>
+                <p class="bemvindo">Bem vindo(a)</p>
+                <h1 class="pedidos">Pedidos em andamento:</h1>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-4 informacoes">
+                    <p class="txtremedio">Remédio: Paracetamol</p>
+                    <p class="txtstatus"> Entregador: Walter Reis</p>
+                    <p class="txtstatus"><b>Status:</b> Indo ao posto</p>
+
+
+                </div>
+                <div class="col-4 informacoes">
+                    <p class="txtremedio">Remédio: Paracetamol</p>
+                    <p class="txtstatus"> Entregador: Walter Reis</p>
+                    <p class="txtstatus"><b>Status:</b> Indo ao posto</p>
+                </div>
+            </div>
+        </div>
+        <div class="realizar">Realizar pedido</div>
+        <div class="container bg-segunda">
+            <div class="form">
+                <p class="remedio">Qual remedio precisa ser pego?</p>
+                <label class="label " for=" ">
+                <input class=" input border border-2 border-secondary rounded " type="text " name="name " placeholder="Digite o nome aqui ">
+            </label>
+
+                <p class="remedio">Qual o endereço de entrega?</p>
+                <p class="txtradio">
+                    <input class="input-radio" type="radio" name="sim" value="Sim"> Endereço cadastrado
+                    <br>
+                    <input class="input-radio" type="radio" name="Não" value="Não"> Outro
+                </p>
+                </label>
+                <label class="label " for=" ">
+                <input class=" inputt border border-2 border-secondary rounded " type="text " name="name " placeholder="Digite outro endereço aqui">
+            </label>
+                <div class="row justify-content-end bg-danger">
+                    <div class="col-4">
+                        <div class="btn">
+                            <button class="button mt-2">Confirmar pedido</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="bg-preto">
+            <div class="container">
+                <div class="row py-4 d-flex">
+                    <div class="col-md-12 text-center">
+                        <!-- Pedro, coloque o link das redes sociais e da página HTML que corresponde a cada um, vlw! -->
+                        <a class="arodape" href="home.html">Home</a>
+                        <a class="arodape" href="quemsomos.html">Quem somos nós</a>
+                        <a class=" arodape" href="cad_usuario.html">Quero ser um usuário</a>
+                        <a class=" arodape" href="cad_voluntario.html">Quero ser um voluntário</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center text-md-left mt-4">
+            <div class="row text-center">
+
+                <div class="col-md-4 text-center">
+                    <h6 class="font-weight-bold text-white">HiSenior</h6>
+                    <hr class="bg-success hrrodape mt-0 d-inline-block mx-auto">
+                    <p class="mt-0 text-white">O HiSenior é um site para auxiliar idosos na entrega de remédios. Um voluntário se disponibiliza para buscar remédio do idoso nos postos e farmácias populares.</p>
+                </div>
+
+
+                <div class="col-md-4 mx-auto">
+                    <h6 class="font-weight-bold text-white">Quem somos</h6>
+                    <hr class="bg-success hrrodape mt-0 d-inline-block mx-auto">
+                    <p class="mt-0 text-white">Nós somos um grupo de desenvolvedores, formados em Java pela instituição PROA. Esse é nosso projeto principal, um site que ajuda a comunidade a se ajudar e conectar-se com as pessoas da sua comunidade. Use nossas redes sociais para
+                        se conectar com a gente.</p>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <H6 class="font-weight-bold text-white">Ferramentas ultilizadas</H6>
+                    <hr class="bg-success hrrodape mt-0 d-inline-block mx-auto">
+                    <p class="mt-0 text-white">HTML/CSS/Bootstrap</p>
+                    <p class="mt-0 text-white">JavaScript</p>
+                    <p class="mt-0 text-white">Java</p>
+                    <p class="mt-0 text-white">PHP MyAdimin</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a class="arodape" href="https://www.instagram.com/hisenior_oficial/">Instagram<img class="iconrodape" src="_img/instagram.jpg"/></a>
+                        <a class="arodape" href="https://www.facebook.com/HiSenior.oficial">Facebook<img class="iconrodape" src="_img/Facebook.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

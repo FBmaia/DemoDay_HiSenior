@@ -1,0 +1,212 @@
+<html>
+
+<head>
+    <title>HiSenior</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="_img/Logo.png" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="LOGO_preto.png">
+    <link href="_css/cad_voltuntario.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="_img/Logo.png" alt="" height="60" class="d-inline-block align-text-center rounded-circle">HiSenior
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto  mx-auto  ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quemsomos.html">Quem somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cad_voluntario.html">Quero ser voluntário</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cad_usuario.html">Quero ser usuário</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Entrar
+				          </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="login_usuario.html">Entrar como usúario</a></li>
+                                    <li><a class="dropdown-item" href="login_volunt.html">Entrar como voluntário</a></li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li>
+                                    <a class="nav-link" href="https://www.facebook.com/HiSenior.oficial">
+                                        <img src="_img/Facebook.jpg" height="30">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="https://www.instagram.com/hisenior_oficial/">
+                                        <img src="_img/instagram.jpg" height="30">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container ">
+            <div class="row ">
+
+                <div>
+                    <hr class="hrTitulo ">
+                    <p class="Pq1 ">Por que ser voluntário?</p>
+                    <p class="txtVoluntario ">Sendo um voluntário você vai estar ajudando idosos do seu bairro de forma responsável. E ainda é possivel ganhar um certificado de voluntário do HiSenior. </p>
+                    <div class="requisitos ">
+                        <hr>
+                        <h2 class="pq1 ">Requisitos</h2>
+                        <ul>
+                            <li class="l1 ">Ser maior de idade</li>
+                            <li class="l1 ">Morar em São Paulo, no bairro Jardim Brasil.</li>
+                            <li class="l1 ">Ter a ficha criminal limpa.</li>
+                            <li class="l1 ">Ter disponibilidade para entregas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Cadastro Voluntário</h1>
+        <!-- Cadastro -->
+
+        <div class="container ">
+            <div class="row ">
+
+                <div class="col-md-12 ">
+
+                    <!-- Lista de itens -->
+                    <hr size="4">
+                    <label class="label " for=" ">Nome: <br>  <input class=" input border border-2 border-secondary rounded " type="text " name="name " placeholder="Escreva seu nome aqui "></label>
+                    <hr size="4 ">
+                    <label class="label" for=" ">Gênero: <br>
+                            <select class=" inputt border border-2 border-secondary rounded " name=" " id=" ">
+                                <option></option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                                <option>Outros</option>
+                                <!-- Label representa uma legenda para um item em uma interface de usuário -->
+                                <!-- Input é para que o usuário passa escrever(Type text caso for texto e Type radio caso queira criar caixinhas de marcação) -->
+                                <!-- Button é para criar um botão para o usuário clicar -->
+                            </select></label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Data de nascimento: <br>
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="Data_de_nascimento " placeholder="Digite aqui "></label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">CPF: <br>
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="CPF " placeholder="Digite aqui "></label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Estado: <br>
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="Estado " placeholder="Escreva aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Cidade: <br> 
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="Cidade " placeholder="Escreva aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">CEP: <br>
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="CEP " placeholder="Digite aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Endereço: <br> 
+                            <input class=" input border border-2 border-secondary rounded " type="text " name="Endereço " placeholder="Escreva aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label" for="">Alguma deficiência: <br>
+                        <input class="input-radio" type="radio" name="sim" value="Sim"> Sim
+                        <input class="input-radio" type="radio" name="Não" value="Não"> Não
+                    </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Email: <br> 
+                            <input class="input border border-2 border-secondary rounded " type="text " name="Email " placeholder="Escreva aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Senha: <br>
+                            <input class="input border border-2 border-secondary rounded " type="text " name="Senha " placeholder="Escreva aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label " for=" ">Número: <br>
+                            <input class="input border border-2 border-secondary rounded " type="text " name="Número " placeholder="Digite aqui ">
+                        </label>
+                    <hr size="4 ">
+                    <label class="label" for="">Envie o documento da sua ficha criminal: <br>
+                        <!--Input do tipo file que possibilita o usuário escolher um arquivo para enviar.-->
+                        <input class="inputt mb-5 border border-2 border-secondary rounded"  type="file" name="Arquivo">
+                    </label> <br>
+                    <div class="alinha">
+                        <button class="btn text-center" type="submit ">Enviar</button>
+                    </div>
+                    <!-- Fim da lista -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-primeira text-center text-lg-start ">
+        <!-- Começo do rodapé -->
+        <div class="container mt-5 ">
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mt-4 ">
+                    <!-- Logo e nome do projeto -->
+                    <a class="navbar-brand mt-5 " href=" ">
+                        <img src="_img/LogoHisenior.jpg " alt=" " height="100 " class="d-inline-block rounded-circle "> HiSenior ©
+                    </a>
+                </div>
+                <!-- Midias sociais e logo -->
+                <div class="midiassociais col-lg-3 col-md-6 mb-md-0 mt-5 ">
+                    <p class="Midias ">Midias Sociais</p>
+
+                    <section>
+                        <!-- Facebook -->
+                        <a class="btn btn-link btn-floating " href="https://www.facebook.com/HiSenior.oficial " role="button ">
+                            <img src="_img/facebook.png " height="30 ">
+                        </a>
+                        <!-- Instagram -->
+                        <a class="btn btn-link btn-floating " href="https://www.instagram.com/hisenior_oficial/ " role="button ">
+                            <img src="_img/instagram.png " height="30 ">
+                        </a>
+                </div>
+                <!--Contato e email.-->
+                <div class="col-lg-3 col-md-6 mb-md-0 mt-5 ">
+                    <p class="Midias ">Contato</p>
+
+                    <ul>
+                        <li>
+                            <a href="contato.hisenior@gmail.com " class="txt list-unstyled ">contato.hisenior@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
